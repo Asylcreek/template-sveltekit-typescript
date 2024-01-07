@@ -3,8 +3,10 @@
 ## Things to note
 
 - [pnpm](https://pnpm.io/) is the package manager used in this project
-- Husky and lint-staged are configured
+- [eslint](https://github.com/eslint/eslint) and [prettier](https://github.com/prettier/prettier) are configured
+- [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/lint-staged/lint-staged) are configured
 - Github actions are configured
+- engines for `node` and `pnpm` are configured in the package.json
 
 ## Developing
 
