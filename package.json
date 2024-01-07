@@ -34,8 +34,11 @@
 	},
 	"type": "module",
 	"lint-staged": {
-		"*.{svelte,js,ts}": "pnpm lint",
-		"*.{svelte,js,ts,css,md}": "pnpm format"
+		"*.{svelte,js,ts}": [
+			"pnpm format",
+			"pnpm lint"
+		],
+		"*.{css,md}": "pnpm format"
 	},
 	"engines": {
 		"node": "^18.17",
