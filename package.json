@@ -34,7 +34,7 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": "^18.17",
+		"node": "^22.12",
 		"pnpm": "^8.13"
 	}
 }
